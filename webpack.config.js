@@ -1,6 +1,7 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
+  mode: 'development',
   entry: {
     styles: ["./file.css", "./file-2.css"],
   },
